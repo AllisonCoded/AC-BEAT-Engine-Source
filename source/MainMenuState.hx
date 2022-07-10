@@ -224,11 +224,11 @@ class MainMenuState extends MusicBeatState
 		#end
 		versionShitpsych.text = "Psych Engine v" + psychEngineVersion;
 		versionShit.screenCenter(X);
-		versionShitpsych.screenCenter(X);
+	    versionShitpsych.screenCenter(X);
 		var versionShitFriday:FlxText = new FlxText(12, FlxG.height - 24, 0, "FNF v" + fridayVersion, 12);
 		versionShitFriday.scrollFactor.set();
 		versionShitFriday.setFormat("VCR OSD Mono", 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
-		versionShitFriday.screenCenter(X);
+        versionShitFriday.screenCenter(X);
 		add(versionShitFriday);
 
 		if (!ClientPrefs.lowQuality)

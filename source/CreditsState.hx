@@ -86,6 +86,29 @@ class CreditsState extends MusicBeatState
 
 		var pisspoop:Array<Array<String>> = [
 			// Name - Icon name - Description - Link - HEX BG Color
+			['Directors'],
+			[
+				'ACodedGuy',
+				'acodedguy',
+				'Owner & Main Director, Coder, Background Maker and Theme Composer',
+				'https://twitter.com/ACodedGuy',
+				'4B0082'
+			],
+			[
+				'Nekonite',
+				'nekonite',
+				'Co-Director',
+				'https://twitter.com/nekonitee',
+				'9400D3'
+			],
+			[
+				'John_Daily',
+				'johndaily',
+				'Co-Director, Charter & VA',
+				'https://twitter.com/JohnDai17259703',
+				'00008B'
+			],
+			[''],
 			['BEAT!Engine Team'],
 			[
 				'Luis Com S',

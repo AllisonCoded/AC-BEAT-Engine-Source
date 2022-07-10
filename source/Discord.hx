@@ -16,7 +16,7 @@ class DiscordClient
 	{
 		trace("Discord Client starting...");
 		DiscordRpc.start({
-			clientID: "929527575678713876",
+			clientID: "987442240253223032",
 			//clientID: "863222024192262205", Psych Engine's original rich presence
 			onReady: onReady,
 			onError: onError,
@@ -45,7 +45,7 @@ class DiscordClient
 			details: "In the Menus",
 			state: null,
 			largeImageKey: 'icon',
-			largeImageText: "BEAT! Engine"
+			largeImageText: "AC v2.0 - BEAT! Engine"
 		});
 	}
 
