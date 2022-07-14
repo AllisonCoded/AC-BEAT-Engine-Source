@@ -109,6 +109,85 @@ class CreditsState extends MusicBeatState
 				'00008B'
 			],
 			[''],
+			['The Team'],
+			[
+				'TheSpriterOne',
+				'thespriterone',
+				'First Icon Artist since the beginning of the mod (icon looks awesome)',
+				'https://twitter.com/TheSpriterOne',
+				'4B0082'
+			],
+			[
+				'Z11Gaming',
+				'z11gaming',
+				'Coder for some things that he did, helped the mod with coding.',
+				'https://github.com/Z11Coding',
+				'4B0082'
+			],
+			[
+				'MrFlamin',
+				'mrflamin',
+				'Funni man who composed some songs, really amazing',
+				'https://twitter.com/FlaminWasTaken',
+				'4B0082'
+			],
+			[
+				'TiagoFuzionPoco',
+				'tiagofuzionpoco',
+				'The guy who does icons for the characters, really neat guy (send him mr krabs in dms)',
+				'https://twitter.com/FuzionPoco',
+				'4B0082'
+			],
+			[
+				'Bem W',
+				'placeholder',
+				'Funni man who voice acted for Scuffled Couples',
+				'',
+				'4B0082'
+			],
+			[
+				'Ralsi',
+				'ralsin',
+				'The person who actually does goofy coding (hi ralsi sorry for calling u goofy)',
+				'https://twitter.com/Ralsin1',
+				'4B0082'
+			],
+			[
+				'JDST',
+				'jdst',
+				'The man himself who composes and loves the funni lore (he composed the main menu)',
+				'https://twitter.com/JDSTtwt',
+				'4B0082'
+			],
+			[
+				'Lemmeo',
+				'lemmeo',
+				'The person who does goofy ahh charts (lemmon lets send mr krabs in tiagos dms)',
+				'https://twitter.com/Lemmeoo',
+				'4B0082'
+			],
+			[
+				'Doge_NotDetected',
+				'placeholder',
+				'The another charter which he is doge, thats all',
+				'',
+				'4B0082'
+			],
+			[
+				'Teserex',
+				'teserex',
+				'Funni dog that composed for some songs (hello you)',
+				'https://twitter.com/teserex_exe',
+				'4B0082'
+			],
+			[
+				'CritVA',
+				'placeholder',
+				'The man himself, who voice acted for the Questioner (chad)',
+				'https://twitter.com/CritVA70',
+				'4B0082'
+			],
+			[''],
 			['BEAT!Engine Team'],
 			[
 				'Luis Com S',
