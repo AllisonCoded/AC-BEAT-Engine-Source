@@ -125,6 +125,13 @@ class CreditsState extends MusicBeatState
 				'4B0082'
 			],
 			[
+				'HackTheAir',
+				'hacktheair',
+				'code things',
+				'https://github.com/hackx2',
+				'4B0082'
+			],
+			[
 				'MrFlamin',
 				'mrflamin',
 				'Funni man who composed some songs, really amazing',

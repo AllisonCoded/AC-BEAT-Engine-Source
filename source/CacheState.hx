@@ -28,7 +28,7 @@ import sys.io.File;
 
 using StringTools;
 
-class Cache extends MusicBeatState
+class CacheState extends MusicBeatState
 {
 	public static var bitmapData:Map<String,FlxGraphic>;
 	public static var bitmapData2:Map<String,FlxGraphic>;
