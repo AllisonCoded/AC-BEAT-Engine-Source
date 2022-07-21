@@ -40,9 +40,10 @@ using StringTools;
 
 class MainMenuState extends MusicBeatState
 {
-	public static var fridayVersion:String = '0.2.7-Git + 0.2.8-NG';
+	//public static var fridayVersion:String = '0.2.7-Git + 0.2.8-NG';
 	public static var psychEngineVersion:String = '0.5.1';
 	public static var beatEngineVersion:String = '0.0.2'; // this is used for Discord RPC
+	public static var allisonCrisisVersion:String = '2.0';
 	public static var curSelected:Int = 0;
 
 	var menuItems:FlxTypedGroup<FlxSprite>;
@@ -52,7 +53,7 @@ class MainMenuState extends MusicBeatState
 
 	private var camAchievement:FlxCamera;
 
-	var optionShit:Array<String> = ['story_mode', 'freeplay', 'mods', 'socials', 'credits', 'options'];
+	var optionShit:Array<String> = ['story_mode', 'freeplay', 'credits', 'options'];
 
 	public var iconBG:FlxSprite;
 
@@ -82,7 +83,7 @@ class MainMenuState extends MusicBeatState
 	{
 		#if desktop
 		// Updating Discord Rich Presence
-		DiscordClient.changePresence("In the Menus", null);
+		DiscordClient.changePresence("Currently in the Main Menu.", null);
 		#end
 		debugKeys = ClientPrefs.copyKey(ClientPrefs.keyBinds.get('debug_1'));
 
@@ -225,11 +226,15 @@ class MainMenuState extends MusicBeatState
 		versionShitpsych.text = "Psych Engine v" + psychEngineVersion;
 		versionShit.screenCenter(X);
 	    versionShitpsych.screenCenter(X);
-		var versionShitFriday:FlxText = new FlxText(12, FlxG.height - 24, 0, "FNF v" + fridayVersion, 12);
-		versionShitFriday.scrollFactor.set();
-		versionShitFriday.setFormat("VCR OSD Mono", 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
-        versionShitFriday.screenCenter(X);
-		add(versionShitFriday);
+	//	var versionShitFriday:FlxText = new FlxText(12, FlxG.height - 24, 0, "FNF v" + fridayVersion, 12);
+	//  versionShitFriday.scrollFactor.set();
+	//  versionShitFriday.setFormat("VCR OSD Mono", 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+    //  versionShitFriday.screenCenter(X);
+    //  add(versionShitFriday);
+		var versionShitCrisis:FlxText = new FlxText(12, FlxG.height - 24, 0, "Allison's Crisis v" + allisonCrisisVersion, 12);
+		versionShitCrisis.scrollFactor.set();
+		versionShitCrisis.setFormat("VCR OSD Mono", 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+		add(versionShitCrisis);
 
 		if (!ClientPrefs.lowQuality)
 		{
